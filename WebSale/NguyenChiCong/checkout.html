@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div class="header">
+      <div class="container">
+        <div class="logo mt-5 mb-5 mb-md-0"> <a class="d-flex" href="index.html" title="Về trang chủ"><img src="images/logo.png" height="100px" alt="Về trang chủ"></a> </div>
+      </div>
+    </div>
+    <!-- information -->
+    <div class="container">
+      <div class="container-1">
+      <div class="row">
+            <form action="signup.html">
+              <div class="row">
+                <div class="col-50">
+                  <h3>Thông tin thanh toán</h3>
+                  <label for="fname"><i class="fa fa-user"></i>Họ và tên</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Nguyễn Văn A">
+                  <label for="email"><i class="fa fa-envelope"></i>Email</label>
+                  <input type="text" id="email" name="email" placeholder="abc@gmail.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i>Địa chỉ</label>
+                  <input type="text" id="adr" name="address" placeholder="275-Nguyễn Xí">
+                  <label for="city"><i class="fa fa-institution"></i>Số điện thoại</label>
+                  <input type="text" id="phone" name="phone" placeholder="0123456789">
+                </div>
+              </div>
+              <label>
+                <input type="radio" name="sameadr"> Thanh toán khi nhận hàng
+                <input type="radio" name="sameadr"> Thanh toán bằng MOMO
+                <input type="radio" name="sameadr"> Thanh toán bằng SmastBanking
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
+      </div>
+        <div class="container-2">
+        <div class="cartTab">
+          <h1>Giỏ hàng</h1>
+          <div class="listCart">
+          </div>
+          <div class="allPay">
+          </div>
+        </div>
+      </div>
+      </div>
+      <script src="checkout.js"></script>
+</body>
+</html>

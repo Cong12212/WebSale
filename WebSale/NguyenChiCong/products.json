@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name":"Item 01",
+        "price": 200,
+        "image": "img/1.png",
+        "sale":239,
+        "date": "2024-07-06"
+    },
+    {
+        "id": 2,
+        "name":"Item 02",
+        "price": 250,
+        "image": "img/2.png",
+        "sale":332,
+        "date": "2024-04-07"
+    
+    },
+    {
+        "id": 3,
+        "name":"Item 03 ",
+        "price": 290,
+        "image": "img/3.png",
+        "sale":621,
+        "date": "2024-10-11"
+    },
+    {
+        "id": 4,
+        "name":"Item 04 ",
+        "price": 200,
+        "image": "img/4.png",
+        "sale":1,
+        "date": "2024-11-06"
+    },
+    {
+        "id": 5,
+        "name":"Item 05 ",
+        "price": 300,
+        "image": "img/5.png",
+        "sale":61,
+        "date": "2024-05-01"
+    },
+    {
+        "id": 6,
+        "name":"Item 06 ",
+        "price": 200,
+        "image": "img/6.png",
+        "sale":693,
+        "date": "2024-03-22"
+    },
+    {
+        "id": 7,
+        "name":"Item 07 ",
+        "price": 200,
+        "image": "img/7.png",
+        "sale":124,
+        "date": "2024-03-11"
+    },
+    {
+        "id": 8,
+        "name":"Item 08 ",
+        "price": 200,
+        "image": "img/8.png",
+        "sale":4373,
+        "date": "2024-03-15"
+    },
+    {
+        "id": 9,
+        "name":"Item 09 ",
+        "price": 200,
+        "image": "img/9.png",
+        "sale":108,
+        "date": "2021-03-06"
+    },
+    {
+        "id": 10,
+        "name":"Item 10 ",
+        "price": 250,
+        "image": "img/10.png",
+        "sale":123,
+        "date": "2022-03-06"
+    },
+    {
+        "id": 11,
+        "name":"Item 11 ",
+        "price": 290,
+        "image": "img/11.png",
+        "sale":110,
+        "date": "2024-03-02"
+    },
+    {
+        "id": 12,
+        "name":"Item 12 ",
+        "price": 200,
+        "image": "img/12.png",
+        "sale":592,
+        "date": "2024-05-06"
+    },
+    {
+        "id": 13,
+        "name":"Item 13 ",
+        "price": 300,
+        "image": "img/13.png",
+        "sale":84,
+        "date": "2022-03-06"
+    },
+    {
+        "id": 14,
+        "name":"Item 14 ",
+        "price": 200,
+        "image": "img/14.png",
+        "sale":424,
+        "date": "2023-03-06"
+    },
+    {
+        "id": 15,
+        "name":"Item 15 ",
+        "price": 200,
+        "image": "img/15.png",
+        "sale":743,
+        "date": "2024-03-11"
+    },
+    {
+        "id": 16,
+        "name":"Item 16 ",
+        "price": 200,
+        "image": "img/16.png",
+        "sale":1421,
+        "date": "2024-03-07"
+    }
+
+]

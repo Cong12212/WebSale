@@ -1,0 +1,141 @@
+.col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+.container {
+    display: grid;
+    grid-template-columns: 60% 50%;
+    background-color: #ffffff;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+input[type=text] {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+.btn:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+.container-1{
+    width: 100%;
+}
+.container-2{
+    width: 40%;
+}
+
+.cartTab{
+    width: 200%;
+    background-color: #ffffff;
+    color: #000000;
+    display: grid;
+    transition: .5s;
+}
+
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.listCart .item img{
+    width: 100%;
+}
+.listCart .item{
+    display: grid;
+    /* grid-template-columns: 70px 150px 50px 1fr; */
+    grid-template-columns: 70px 2fr 2fr 2fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listCart .item:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.067);
+}
+.listCart{
+    overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #000000;
+    cursor: auto;
+}
+.listCart{
+    overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+.allPay{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@keyframes blurEffect {
+    0% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
